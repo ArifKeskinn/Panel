@@ -1,0 +1,59 @@
+/*
+  @@ Pagination
+*/
+.holder {
+    margin: 2px 0;
+    vertical-align: bottom;
+}
+
+.holder a {
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 2px;
+  color: #333;
+  width: 17px;
+}
+
+.holder a:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+.holder a.jp-previous { margin-right: 4px; }
+.holder a.jp-next { margin-left: 4px; }
+
+.holder a.jp-current, a.jp-current:hover { 
+  color: #428bca;
+  font-weight: bold;
+}
+
+.holder a.jp-disabled, a.jp-disabled:hover {
+    color: #bbb;
+}
+
+.holder a.jp-current, a.jp-current:hover,
+.holder a.jp-disabled, a.jp-disabled:hover {
+  cursor: default; 
+  background: none;
+}
+/*
+     FILE ARCHIVED ON 18:30:48 Nov 23, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:20:28 Apr 25, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 51.988 (3)
+  esindex: 0.015
+  captures_list: 79.62
+  CDXLines.iter: 11.202 (3)
+  PetaboxLoader3.datanode: 102.755 (4)
+  exclusion.robots: 0.188
+  exclusion.robots.policy: 0.173
+  RedisCDXSource: 12.957
+  PetaboxLoader3.resolve: 15.222
+  load_resource: 67.894
+*/

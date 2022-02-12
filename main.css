@@ -1,0 +1,516 @@
+html, body {
+    font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif, sans;
+    font-size: 10pt;
+}
+
+/*-- Mainline devices --*/
+.loginFormWrapper {
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    width: 350px;
+    text-align: center;
+}
+
+.loginFormWrapper .loginForm {
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.loginForm input {
+    border: none;
+    opacity: 0.85;
+    outline: none;
+    margin: 5px;
+    color: #444;
+}
+
+.loginForm input[type="text"], .loginForm input[type="password"] {
+    width: 250px;
+    padding: 10px 0;
+    margin: 5px;
+    border: 1px solid #ddd;
+    font-weight: normal;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.loginForm input[type="submit"] {
+    background-color: #3B6694;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: normal;
+    height: 40px;
+    width: 75px;
+    margin-bottom: 0;
+}
+
+/*-- Small Devices --*/
+@media (max-width : 320px) {
+    
+    .loginFormWrapper {
+        margin-top: 0;
+        width: 300px;
+    }
+    
+}
+
+@media (min-width : 321px) and (max-width : 768px){
+
+    .loginFormWrapper {
+        margin-top: 0;
+        width: 95%;
+    }
+}
+
+.loginForm input[type="submit"]:hover {
+    background-color: #4475aa;
+}
+
+/* Player */
+.rank_0 {
+    color: rgb(0, 170, 0);
+    text-shadow: 1px 1px 7px rgba(0, 42, 0, 0.2);
+}
+
+/* Iron Donor */
+.rank_1 {
+    color: rgb(170, 170, 170);
+    text-shadow: 1px 1px 7px rgba(42, 42, 42, 0.2);
+}
+
+/* Gold Donor */
+.rank_2 {
+    color: rgb(255, 170, 0);
+    text-shadow: 1px 1px 7px rgba(42, 42, 0, 0.2);
+}
+
+/* Diamond Donor */
+.rank_3 {
+    color: rgb(0, 170, 170);
+    text-shadow: 1px 1px 7px rgba(0, 42, 42, 0.2);
+}
+
+/* Platinum Donor */
+.rank_4 {
+    color: rgb(85, 255, 255);
+    text-shadow: 0 0 2px rgba(21, 64, 64, 0.2);
+}
+
+/* Quantum Donor */
+.rank_5 {
+    color: rgb(85, 255, 85);
+    text-shadow: 0 0 2px rgba(21, 63, 21, 0.2);
+}
+
+/* Friend */
+.rank_101 {
+    color: rgb(255, 85, 255);
+    text-shadow: 1px 1px 7px rgba(63, 21, 63, 0.2);
+}
+
+/* VIP */
+.rank_102 {
+    color: rgb(170, 0, 170);
+    text-shadow: 1px 1px 7px rgba(42, 0, 42, 0.2);
+}
+
+/* Moderator */
+.rank_103 {
+    color: rgb(255, 85, 85);
+    text-shadow: 1px 1px 7px rgba(63, 21, 21, 0.2);
+}
+
+/* Senior Moderator */
+.rank_104 {
+    color: rgb(170, 0, 0);
+    text-shadow: 1px 1px 7px rgba(42, 0, 0, 0.2);
+}
+
+/* Administrator */
+.rank_105 {
+    color: rgb(170, 0, 0);
+    text-shadow: 1px 1px 7px rgba(42, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+/* Developer */
+.rank_106 {
+    color: rgb(171, 0, 0);
+    text-shadow: 1px 1px 7px rgba(42, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+table.table-labelled {
+    margin-top: 30px;
+}
+
+#footer {
+    color: rgb(160, 160, 160);
+    font-size: 0.8em;
+    margin-top: 25px;
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+}
+
+/*-- Mainstream Devices --*/
+.userSearchForm {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background: rgb(244, 244, 244);
+    border-radius: 10px;
+
+    width: 90%;
+    max-width: 310px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+
+    text-align: center;
+}
+
+.userSearchForm input {
+    height: 35px;
+    font-size: 16pt;
+    max-width: 200px;
+    width: 85%;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.userSearchForm input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 75px;
+    margin-top: 2px;
+}
+
+.addBan, .verifyPullLeft {
+    width: 200px;
+}
+
+.addBan input[type="text"], .addBan textarea, .verifyPullLeft input[type="text"], .verifyPullLeft textarea {
+    width: 225px;
+}
+
+.addBan textarea, .verifyPullLeft textarea {
+    height: 90px;
+}
+
+.addColTitle {
+    font-size: 21px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.addColWrapper p {
+    margin-top: 3px;
+}
+
+.changePasswordForm {
+    margin-bottom: 15px;
+    background: rgb(244, 244, 244);
+    border-radius: 10px;
+
+    width: 300px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+
+    text-align: center;
+}
+
+.changePasswordForm input {
+    height: 35px;
+    font-size: 16pt;
+    width: 250px;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.changePasswordForm input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    margin-top: 2px;
+}
+
+.resetPasswordForm {
+    margin-bottom: 15px;
+    background: rgb(244, 244, 244);
+    border-radius: 10px;
+
+    width: 300px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+
+    text-align: center;
+}
+
+.resetPasswordForm input {
+    height: 35px;
+    font-size: 16pt;
+    width: 250px;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.resetPasswordForm input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    margin-top: 2px;
+}
+
+.forumNameWrapper {
+    margin-bottom: 15px;
+    background: rgb(244, 244, 244);
+    border-radius: 10px;
+
+    width: 300px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+
+    text-align: center;
+}
+
+.forumNameWrapper input {
+    height: 35px;
+    font-size: 16pt;
+    width: 250px;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.forumNameWrapper input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    margin-top: 2px;
+}
+
+.profileFormWrapper > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 7px 0 7px;
+}
+
+#skinpreview {
+    display: none;
+}
+
+.skinWrapper {
+    margin: 10px 0 0 10px;
+}
+
+.proxy {
+    color: #F00;
+}
+
+.singleForm {
+    margin-bottom: 15px;
+    background: rgb(244, 244, 244);
+    border-radius: 10px;
+
+    width: 100%;
+    max-width: 300px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+
+    text-align: center;
+}
+
+.singleForm input {
+    height: 35px;
+    font-size: 16pt;
+    width: 95%;
+    max-width: 250px;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.singleForm input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    margin-top: 2px;
+}
+
+.singleFormSmall {
+    margin-bottom: 15px;
+    background: rgb(244, 244, 244);
+    border-radius: 10px;
+
+    width: 95%;
+    max-width: 300px;
+
+    padding: 15px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.15) inset;
+
+    text-align: center;
+}
+
+.singleFormSmall input {
+    height: 35px;
+    font-size: 16pt;
+    width: 85%;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.singleFormSmall input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    margin-top: 2px;
+}
+
+.inputText input:not([type=checkbox]) {
+    height: 35px;
+    font-size: 16pt;
+
+    text-align: center;
+    margin: 4px;
+}
+
+.inputSubmit input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #fefefe, #f3f3f3);
+    border-radius: 3px;
+    cursor: pointer;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+
+    font-size: 10pt;
+    font-weight: bold;
+    height: 35px;
+    width: 125px;
+    margin-top: 2px;
+}
+
+.queryBox {
+    border: #cccccc solid 2px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.mainInputFormat {
+    padding: 3px;
+    font-size: 14px;
+}
+
+.rankChangeGlyph {
+    margin: 0 5px 0 5px;
+}
+
+.centerDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+.innerTabPaneWrapper {
+    padding: 10px 5px 10px 5px;
+}
+.actionWrapper {
+    margin: 7px 0 7px 5px;
+}
+.listWrapper > ul {
+    max-height: 500px !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.statsWrapper {
+    background-color:#eeeeee;
+}
+/*
+     FILE ARCHIVED ON 18:30:48 Nov 23, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:20:28 Apr 25, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 57.68 (3)
+  esindex: 0.007
+  captures_list: 86.031
+  CDXLines.iter: 11.17 (3)
+  PetaboxLoader3.datanode: 62.005 (4)
+  exclusion.robots: 0.137
+  exclusion.robots.policy: 0.128
+  RedisCDXSource: 14.63
+  PetaboxLoader3.resolve: 51.09
+  load_resource: 102.564
+*/
